@@ -1,5 +1,6 @@
+import "./LoginPage.css";
 import React, { useState } from "react";
-import "./App.css";
+import "./LoginPage.css";
 
 const LoginPage = () => {
   // State for form fields and UI feedback
