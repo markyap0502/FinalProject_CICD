@@ -35,7 +35,7 @@ const LoginPage = () => {
   return (
     <div className="login-container">
       <div className="login-card">
-        <h2>Welcome Back</h2>
+        <h2>Hello!</h2>
         <p>Please log in to your account</p>
 
         {error && <div className="error-message">{error}</div>}
