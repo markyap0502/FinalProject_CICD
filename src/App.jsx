@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./App.css";
 
 const LoginPage = () => {
@@ -26,7 +26,7 @@ const LoginPage = () => {
         setIsLoading(false);
         alert("Login successful! Redirecting...");
       }, 1500);
-    } catch (err) {
+    } catch {
       setError("Invalid email or password.");
       setIsLoading(false);
     }
