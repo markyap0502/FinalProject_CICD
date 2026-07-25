@@ -7,6 +7,7 @@ const LoginPage = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const uselessValue = "42";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
